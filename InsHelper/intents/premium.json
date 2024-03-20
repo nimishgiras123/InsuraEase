@@ -1,0 +1,72 @@
+{
+  "id": "061699e7-f46d-4bfb-b077-1fe4b8a05d99",
+  "name": "premium",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ca2bc6db-6ee1-4de1-84df-bd901a471873",
+          "required": true,
+          "dataType": "@policy-number",
+          "name": "policynumber",
+          "value": "#policy-matched.policynumber",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "I need to verify your credentials first for that. Please enter enter policy number"
+            },
+            {
+              "lang": "en",
+              "value": "I need to verify your policy number first. can you please type it"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "a1bddfbd-5547-4e5a-89f9-819117e65069",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "passcode",
+          "value": "#policy-matched.passcode",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your four digit passcode"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "79b18057-11b4-43cb-8219-c74881ce5d29",
+    "data": [
+      {
+        "text": "read from database",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ce6dafac-d3f2-48d1-8393-43596b90737b",
+    "data": [
+      {
+        "text": "read from ",
+        "userDefined": false
+      },
+      {
+        "text": "db",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3d89b828-df16-4b74-aa87-7fab8b375e29",
+    "data": [
+      {
+        "text": "read",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
