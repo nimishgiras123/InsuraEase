@@ -1,0 +1,71 @@
+{
+  "id": "edee4d3b-5e1c-43ac-ad5f-99d04b138ae2",
+  "parentId": "4ab1fafd-a406-4d48-a573-0fb69d727d16",
+  "rootParentId": "4ab1fafd-a406-4d48-a573-0fb69d727d16",
+  "name": "ComplainCallback",
+  "auto": true,
+  "contexts": [
+    "Complain-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Complain.Complain-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7de85e0a-264f-4969-9966-48eece2c4d79",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "#Complain-followup.name",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "8be59aea-06fe-42e9-aa44-148ab9dd221c",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone",
+          "value": "$phone",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "#Complain-followup.name , Please type your phone number"
+            },
+            {
+              "lang": "en",
+              "value": "can you please type your phone number #Complain-followup.name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,62 @@
+{
+  "id": "b3f9aed9-21f4-42ec-a301-f265756c349c",
+  "name": "Renew",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "please click the following link to renew your policy",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "Renew your policy Now !",
+          "subtitle": "Exclusive discount of 4% is waiting for you!",
+          "formattedText": "You can easily renew your expired insurance plan without undergoing any inspection! Isn\u0027t that amazing?",
+          "image": {
+            "url": "https://i.ibb.co/xHcTYHn/Demo-Insurance.png",
+            "accessibilityText": "renew"
+          },
+          "buttons": [
+            {
+              "title": "Click Here",
+              "openUrlAction": {
+                "url": "https://www.libertyinsurance.in/products/motor-insurance/two-wheeler-renewal",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

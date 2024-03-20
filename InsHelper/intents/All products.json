@@ -1,0 +1,94 @@
+{
+  "id": "5933b3e2-17ff-4fc0-93dd-84c82fda34c0",
+  "name": "All products",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "items": [
+            {
+              "textToSpeech": "Please go through the following link. Currently We offer Auto, Home and  Travel policies.",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Sure I will help you with that. Currently We offer Auto, Home and Travel policies.",
+              "ssml": "",
+              "displayText": ""
+            }
+          ]
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "items": [
+            {
+              "textToSpeech": "Also you can get up to 15%  discount when you bundle policies together !",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Also I have an exclusive offer for you. You can get up to 15%  discount when you bundle policies together !",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Also I have an exclusive offer for you. You are eligible to get up to 12% discount when you buy policies online.",
+              "ssml": "",
+              "displayText": ""
+            }
+          ]
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "Get Exclusive offers !",
+          "subtitle": "Get a quote Now without signing !",
+          "formattedText": "Be it comfort of home or pleasure of travel, we cover you all !",
+          "image": {
+            "url": "https://i.ibb.co/g4QD8wx/Add-a-subheading-1.png",
+            "accessibilityText": "demo products"
+          },
+          "buttons": [
+            {
+              "title": "Click Here",
+              "openUrlAction": {
+                "url": "https://www.libertymutual.com/get-a-quote",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

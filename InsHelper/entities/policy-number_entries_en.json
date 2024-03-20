@@ -1,0 +1,38 @@
+[
+  {
+    "value": "WC1234",
+    "synonyms": []
+  },
+  {
+    "value": "WC 3456",
+    "synonyms": []
+  },
+  {
+    "value": "WC9870",
+    "synonyms": []
+  },
+  {
+    "value": "wc1234",
+    "synonyms": []
+  },
+  {
+    "value": "wc8909",
+    "synonyms": []
+  },
+  {
+    "value": "WC8888",
+    "synonyms": []
+  },
+  {
+    "value": "\\b\\[a-zA-Z]{2}d{4}\\b",
+    "synonyms": []
+  },
+  {
+    "value": "[a-zA-Z]{2}[0-9]{4}",
+    "synonyms": []
+  },
+  {
+    "value": "WC5679",
+    "synonyms": []
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "6d12a845-a0d7-4879-a169-fcb57ea3abc7",
+    "data": [
+      {
+        "text": "pending premium",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "61de6903-5ca5-489b-b85f-8daee3db608c",
+    "data": [
+      {
+        "text": "premium to pay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "930ed7e3-d82e-4d6b-a8f1-1b88002bb7c7",
+    "data": [
+      {
+        "text": "how much premium I need to pay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6a1ec15e-9a60-4763-af3a-2433ed680c8a",
+    "data": [
+      {
+        "text": "my premium",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7509d282-4deb-4bbb-854c-68ba72c3cc67",
+    "data": [
+      {
+        "text": "next premium amount",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "576ea761-e8d0-4aed-b689-045ff0907ddc",
+    "data": [
+      {
+        "text": "what is my premium rate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b09ba6fc-a413-4149-82e3-c1f3dee3777d",
+    "data": [
+      {
+        "text": "what is my premium",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

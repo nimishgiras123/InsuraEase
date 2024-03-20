@@ -1,0 +1,67 @@
+{
+  "id": "a3949197-a6f8-48d0-942e-52475e6e548c",
+  "name": "Why Insurance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "items": [
+            {
+              "textToSpeech": "You\u0027ve worked hard to build a solid financial footing, but accidents can ruin things.",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "I know you\u0027ve worked hard to build a solid financial footing, but nothing is safe from accidents and disasters.",
+              "ssml": "",
+              "displayText": ""
+            }
+          ]
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Insurance helps you to protect your life, your ability to earn income, and to keep a roof over your head",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "You\u0027ve worked hard to build a solid financial footing, but accidents can ruin things.",
+            "I know you\u0027ve worked hard to build a solid financial footing, but nothing is safe from accidents and disasters."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Insurance helps you to protect your life, your ability to earn income, and to keep a roof over your head"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
