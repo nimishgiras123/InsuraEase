@@ -1,1 +1,1 @@
-# InsuraEase
+# InsuraBot
